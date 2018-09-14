@@ -1,0 +1,51 @@
+= Monitoring with MMC
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+:keywords: mmc, debug, manage, monitoring
+
+The Mule Management Console offers a GUI interface that displays performance data related to servers and the applications deployed therein.
+
+== Assumptions
+
+This section assumes that you have a clear picture of xref:architecture-of-the-mule-management-console.adoc[Architecture of the Mule Management Console] and that you have already xref:installing-mmc.adoc[installed the Management Console] in your machine.
+
+== Monitoring Systems
+
+Using the Management Console, you can monitor the performance of the following:
+
+[cols="20a,80a"]
+|===
+|image:icon-alert-blue-big.png[]
+|Alerts:
+
+* xref:working-with-alerts.adoc[Working With Alerts]
+* xref:defining-slas-and-alerts.adoc[Defining SLAs and Alerts]
+* xref:adding-and-managing-alerts-and-slas.adoc[Adding and Managing Alerts and SLAs]
+* xref:setting-up-alert-destinations-and-notifications.adoc[Setting Up Alert Destinations and Notifications]
+|image:icon-building2-blue-big.png[]
+|
+* xref:analyzing-business-events.adoc[Business Events]
+|image:icon-clipboard-blue-big.png[]
+|
+* xref:analyzing-flow-processing-and-payloads.adoc[Flow Content]
+|image:icon-mulesoftm-blue-big.png[]
+|
+* xref:managing-mule-servers-clusters-and-groups.adoc[JVM] (instances of Mule)
+|image:icon-graph-blue-big.png[]
+|
+* xref:viewing-server-os-resources.adoc[Viewing Server OS Resources]
+|image:icon-jigsaw-blue-big.png[]
+|
+* xref:viewing-jmx-information.adoc[Viewing JMX Information]
+* xref:customizing-the-dashboard.adoc[Customizing the Management Console Dashboard]
+|image:icon-dashboard-blue-big.png[]
+|
+* xref:customizing-the-dashboard.adoc[Monitor everything on a Dashboard]
+|===
+
+== See Also
+
+*  xref:managing-with-mmc.adoc[Managing with MMC]
+*  xref:using-the-management-console-api.adoc[Using the Management Console API]
+*  xref:troubleshooting-with-mmc.adoc[Troubleshooting with MMC]

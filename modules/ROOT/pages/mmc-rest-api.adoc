@@ -1,0 +1,31 @@
+= MMC REST API
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+:keywords: mmc, rest, api
+
+The management console provides REST APIs that you can use to programmatically access much of the console's functionality. Using these REST APIs, you can:
+
+* Register new servers and manage existing servers, including restarting servers.
+* Manage server groups.
+* Access and manage files on servers.
+
+== Assumptions
+
+This section assumes that you have a clear picture of the
+xref:architecture-of-the-mule-management-console.adoc[Architecture of the Mule Management Console] and xref:installing-mmc.adoc[installed MMC]
+on your machine.
+
+[cols="20a,80a"]
+|===
+|image:icon-gears-blue-big.png[]
+|xref:using-the-management-console-api.adoc[Using the Management Console APIs]
+|image:icon-reference-blue-big.png[]
+|xref:rest-api-reference.adoc[REST API Reference]
+|===
+
+== See Also
+
+* xref:monitoring-with-mmc.adoc[Monitoring with MMC]
+* xref:managing-with-mmc.adoc[Managing with MMC]
+* xref:troubleshooting-with-mmc.adoc[Troubleshooting with MMC]
