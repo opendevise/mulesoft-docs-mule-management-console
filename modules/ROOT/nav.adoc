@@ -1,4 +1,5 @@
 .xref:index.adoc[Mule Management Console]
+* xref:index.adoc[About Mule Management Console]
 * xref:hw-sw-requirements.adoc[Hardware and Software Requirements]
 * xref:installing-the-production-version-of-mmc.adoc[Installing the Production Version of MMC]
  ** xref:installing-and-deploying-mmc-to-weblogic.adoc[Installing and Deploying MMC to Weblogic]
