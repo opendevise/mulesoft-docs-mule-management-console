@@ -1,5 +1,5 @@
 name: mule-management-console
 title: Mule Management Console
-version: master
+version: '3.8'
 nav:
 - modules/ROOT/nav.adoc
