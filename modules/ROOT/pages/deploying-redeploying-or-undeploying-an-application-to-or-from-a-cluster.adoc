@@ -3,6 +3,9 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
+[WARNING]
+Mule Management Console (MMC) was deprecated in December 2015. Its https://www.mulesoft.com/legal/versioning-back-support-policy#mule-management-console[End of Life] is July 15, 2019. For more information see the xref:release-notes::mule-runtime/mmc-migrator-tool.adoc[MMC Migrator Tool] or contact your Customer Success Manager to determine how you can migrate to Anypoint Runtime Manager.
+
 Using the management console you can deploy or redeploy an application to a cluster. You can also undeploy an application from a cluster. Mule uses the term "deployment unit" (or simply, "deployment") to describe the packaging of an application's flows so that they can can be managed together. In Mule, you deploy or undeploy a deployment unit, which may contain one or more applications.
 
 [TIP]

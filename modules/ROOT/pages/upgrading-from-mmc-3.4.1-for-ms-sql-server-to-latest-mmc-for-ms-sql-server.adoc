@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: mmc, debug, install, upgrade, update
 
+[WARNING]
+Mule Management Console (MMC) was deprecated in December 2015. Its https://www.mulesoft.com/legal/versioning-back-support-policy#mule-management-console[End of Life] is July 15, 2019. For more information see the xref:release-notes::mule-runtime/mmc-migrator-tool.adoc[MMC Migrator Tool] or contact your Customer Success Manager to determine how you can migrate to Anypoint Runtime Manager.
+
 == Overview
 
 MMC version 3.4.1 for MS-SQL Server allows you to xref:persisting-mmc-data-to-ms-sql-server.adoc[persist MMC data to MS SQL Server] instead of on MMC's default internal databases. Users of this version of MMC should upgrade to the latest version of MMC, which includes support for MS-SQL Server.

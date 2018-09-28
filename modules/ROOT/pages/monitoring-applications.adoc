@@ -3,6 +3,9 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
+[WARNING]
+Mule Management Console (MMC) was deprecated in December 2015. Its https://www.mulesoft.com/legal/versioning-back-support-policy#mule-management-console[End of Life] is July 15, 2019. For more information see the xref:release-notes::mule-runtime/mmc-migrator-tool.adoc[MMC Migrator Tool] or contact your Customer Success Manager to determine how you can migrate to Anypoint Runtime Manager.
+
 Click the Applications tab to see information about applications on the server. You can start, restart, and stop applications listed here. Applications that are currently running appear with a green circle to the left of the application name. Check the application(s) and then click the appropriate Start, Restart, or Stop button. See the figure below. Note that you cannot start, stop, or restart the Agent application (highlighted below) because it is a privileged application.
 
 image::applications-1.png[]

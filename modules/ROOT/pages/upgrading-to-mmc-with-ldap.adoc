@@ -3,6 +3,9 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
+[WARNING]
+Mule Management Console (MMC) was deprecated in December 2015. Its https://www.mulesoft.com/legal/versioning-back-support-policy#mule-management-console[End of Life] is July 15, 2019. For more information see the xref:release-notes::mule-runtime/mmc-migrator-tool.adoc[MMC Migrator Tool] or contact your Customer Success Manager to determine how you can migrate to Anypoint Runtime Manager.
+
 If you are upgrading to the latest version of MMC, and your current MMC installation is configured to xref:setting-up-and-managing-users-via-ldap.adoc[manage users via LDAP], you will need to migrate your existing LDAP configuration to your new MMC installation.
 
 == Migrating LDAP Configuration

@@ -3,6 +3,9 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
+[WARNING]
+Mule Management Console (MMC) was deprecated in December 2015. Its https://www.mulesoft.com/legal/versioning-back-support-policy#mule-management-console[End of Life] is July 15, 2019. For more information see the xref:release-notes::mule-runtime/mmc-migrator-tool.adoc[MMC Migrator Tool] or contact your Customer Success Manager to determine how you can migrate to Anypoint Runtime Manager.
+
 The Properties tab displays the JVM arguments (such as -Dmule.base), Mule context properties (such as the server ID), and system properties (such as JAVA_HOME). You can sort the table by the property name or value by clicking the column heading.
 
 The server properties appear at the summary level. You can click a column heading to sort by that column and to group by property fields. You can also add or remove column headings from the display. The server property details cover JVM arguments.

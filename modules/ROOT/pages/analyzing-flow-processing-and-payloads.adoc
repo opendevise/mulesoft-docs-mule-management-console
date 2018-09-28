@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: mmc, flow processing, debug, payload, monitoring
 
+[WARNING]
+Mule Management Console (MMC) was deprecated in December 2015. Its https://www.mulesoft.com/legal/versioning-back-support-policy#mule-management-console[End of Life] is July 15, 2019. For more information see the xref:release-notes::mule-runtime/mmc-migrator-tool.adoc[MMC Migrator Tool] or contact your Customer Success Manager to determine how you can migrate to Anypoint Runtime Manager.
+
 The Flow Analyzer allows you to view and analyze real-time information about messages that a specific flow is processing. It displays message payloads before and after processing, information about the flow message processors and message metadata.
 
 The Flow Analyzer does not modify message contents and does not create additional system load; it is safe to use in a production environment. However, the application that you analyze uses streaming, Flow Analyzer does not read the stream into memory to avoid causing problems in case of large messages.

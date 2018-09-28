@@ -3,6 +3,9 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
+[WARNING]
+Mule Management Console (MMC) was deprecated in December 2015. Its https://www.mulesoft.com/legal/versioning-back-support-policy#mule-management-console[End of Life] is July 15, 2019. For more information see the xref:release-notes::mule-runtime/mmc-migrator-tool.adoc[MMC Migrator Tool] or contact your Customer Success Manager to determine how you can migrate to Anypoint Runtime Manager.
+
 Use the Alerts tab to view raised alerts and to define new alerts, or edit existing alert definitions.
 
 From the Alerts screen, click the Alert Definitions node in the navigation tree to see all currently defined alerts. From this pane, you can create new alerts and edit details about existing alerts. The figure below illustrates the details pane for creating and managing alerts. The pane displays a summary of the existing alerts and provides buttons for adding new alerts, controlling alerts (activating or disabling selected alerts), and deleting them.

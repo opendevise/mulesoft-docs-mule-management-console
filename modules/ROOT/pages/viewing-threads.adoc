@@ -3,6 +3,9 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
+[WARNING]
+Mule Management Console (MMC) was deprecated in December 2015. Its https://www.mulesoft.com/legal/versioning-back-support-policy#mule-management-console[End of Life] is July 15, 2019. For more information see the xref:release-notes::mule-runtime/mmc-migrator-tool.adoc[MMC Migrator Tool] or contact your Customer Success Manager to determine how you can migrate to Anypoint Runtime Manager.
+
 The Threads tab allows you to view the threads that are running in the JVM. The information displayed depends on whether the server's JVM has the JMX agent installed or is based on the thread class. The thread class view displays less-detailed information, so if you need more details, you should consider installing a JMX agent. To enable the JMX agent with Tomcat, add the `-Dcom.sun.management.jmxremote` option to your `CATALINA_OPTS` setting.
 
 The figure below is an example of a threads display.

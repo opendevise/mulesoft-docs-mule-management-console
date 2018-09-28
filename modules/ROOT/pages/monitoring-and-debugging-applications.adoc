@@ -3,6 +3,9 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
+[WARNING]
+Mule Management Console (MMC) was deprecated in December 2015. Its https://www.mulesoft.com/legal/versioning-back-support-policy#mule-management-console[End of Life] is July 15, 2019. For more information see the xref:release-notes::mule-runtime/mmc-migrator-tool.adoc[MMC Migrator Tool] or contact your Customer Success Manager to determine how you can migrate to Anypoint Runtime Manager.
+
 These topics show how to use the Mule Management Console Flows and Flow Analyzer tabs to monitor and track applications on a given server. Together, these tabs let you see what is happening within the application processing. In addition, you may be able to use this information to debug an application.
 
 * xref:tracking-flows.adoc[Tracking Flows] - The Flows tab shows you information about the different flows that make up applications deployed on the server. It gives you both high-level information about event processing for application flows and also lets you drill down for specific detailed information.

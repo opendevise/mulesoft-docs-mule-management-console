@@ -3,6 +3,9 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
+[WARNING]
+Mule Management Console (MMC) was deprecated in December 2015. Its https://www.mulesoft.com/legal/versioning-back-support-policy#mule-management-console[End of Life] is July 15, 2019. For more information see the xref:release-notes::mule-runtime/mmc-migrator-tool.adoc[MMC Migrator Tool] or contact your Customer Success Manager to determine how you can migrate to Anypoint Runtime Manager.
+
 This document covers how to persist environment and transaction data to PostgreSQL databases. Follow the instructions to <<PostgreSQL Installation>>, then follow the specific instructions for <<Persisting Environment Data>> or <<Persisting Transaction Data>> persistence to set up your user, create your database, and configure your MMC instance to persist your data.
 
 [WARNING]

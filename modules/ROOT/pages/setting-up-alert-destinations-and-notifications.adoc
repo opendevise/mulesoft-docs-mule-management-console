@@ -3,6 +3,9 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
+[WARNING]
+Mule Management Console (MMC) was deprecated in December 2015. Its https://www.mulesoft.com/legal/versioning-back-support-policy#mule-management-console[End of Life] is July 15, 2019. For more information see the xref:release-notes::mule-runtime/mmc-migrator-tool.adoc[MMC Migrator Tool] or contact your Customer Success Manager to determine how you can migrate to Anypoint Runtime Manager.
+
 Alert destinations are the locations, such as email addresses, to which notifications are sent when alerts are triggered. You need to set up alert destinations prior to creating any alert notifications, since notifications are associated with specific destinations. Setting up a notification is described in the section.
 
 == Setting Up Alert Destinations
