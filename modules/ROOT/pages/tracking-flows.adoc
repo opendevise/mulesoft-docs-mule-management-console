@@ -5,7 +5,7 @@ endif::[]
 :keywords: mmc, logs, monitoring, tracking, flows
 
 [WARNING]
-Mule Management Console (MMC) was deprecated in December 2015. Its https://www.mulesoft.com/legal/versioning-back-support-policy#mule-management-console[End of Life] is July 15, 2019. For more information see the xref:release-notes::mule-runtime/mmc-migrator-tool.adoc[MMC Migrator Tool] or contact your Customer Success Manager to determine how you can migrate to Anypoint Runtime Manager.
+Mule Management Console (MMC) was deprecated in December 2015. Its https://www.mulesoft.com/legal/versioning-back-support-policy#mule-management-console[End of Life] is July 15, 2019. For more information see the xref:release-notes::mule-runtime/mmc-migrator-tool.adoc[MMC Migrator Tool] or contact your Customer Success Manager to determine how you can migrate to xref:runtime-manager::index.adoc[Anypoint Runtime Manager].
 
 The screens available from the Flows tab let you track the flows of deployed applications on a server. The Flows tab, along with the Flow Analyzer tab and its screens, are particularly helpful to diagnose problems due to performance issues and memory usage.
 

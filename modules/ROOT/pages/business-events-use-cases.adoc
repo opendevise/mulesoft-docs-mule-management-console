@@ -5,7 +5,7 @@ endif::[]
 :keywords: mmc, logs, monitoring, business events
 
 [WARNING]
-Mule Management Console (MMC) was deprecated in December 2015. Its https://www.mulesoft.com/legal/versioning-back-support-policy#mule-management-console[End of Life] is July 15, 2019. For more information see the xref:release-notes::mule-runtime/mmc-migrator-tool.adoc[MMC Migrator Tool] or contact your Customer Success Manager to determine how you can migrate to Anypoint Runtime Manager.
+Mule Management Console (MMC) was deprecated in December 2015. Its https://www.mulesoft.com/legal/versioning-back-support-policy#mule-management-console[End of Life] is July 15, 2019. For more information see the xref:release-notes::mule-runtime/mmc-migrator-tool.adoc[MMC Migrator Tool] or contact your Customer Success Manager to determine how you can migrate to xref:runtime-manager::index.adoc[Anypoint Runtime Manager].
 
 The Business Events tab on the management console gives you visibility into business transactions and events on your Mule servers, allowing you to track and analyze the flow and disposition of particular messages. For example, you can use the data to do root cause analysis on a failure within a business transaction or identify message processing bottlenecks.
 

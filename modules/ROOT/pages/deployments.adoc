@@ -4,7 +4,7 @@ include::_attributes.adoc[]
 endif::[]
 
 [WARNING]
-Mule Management Console (MMC) was deprecated in December 2015. Its https://www.mulesoft.com/legal/versioning-back-support-policy#mule-management-console[End of Life] is July 15, 2019. For more information see the xref:release-notes::mule-runtime/mmc-migrator-tool.adoc[MMC Migrator Tool] or contact your Customer Success Manager to determine how you can migrate to Anypoint Runtime Manager.
+Mule Management Console (MMC) was deprecated in December 2015. Its https://www.mulesoft.com/legal/versioning-back-support-policy#mule-management-console[End of Life] is July 15, 2019. For more information see the xref:release-notes::mule-runtime/mmc-migrator-tool.adoc[MMC Migrator Tool] or contact your Customer Success Manager to determine how you can migrate to xref:runtime-manager::index.adoc[Anypoint Runtime Manager].
 
 This document, as well as the rest of the documents that make up the xref:rest-api-reference.adoc[Mule Management Console REST API Reference Guide], are a technical reference only. This document does not provide contextual information such as instructions, use cases or scenarios. To understand this document, you should be familiar with https://www.mulesoft.com/resources/esb/what-mule-esb[MULE ESB], xref:deployments.adoc[Deployments], and the xref:using-the-management-console-api.adoc[REST API.]
 

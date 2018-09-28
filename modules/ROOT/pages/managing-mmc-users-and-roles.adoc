@@ -5,7 +5,7 @@ endif::[]
 :keywords: mmc, configuration, ldap, authenthication
 
 [WARNING]
-Mule Management Console (MMC) was deprecated in December 2015. Its https://www.mulesoft.com/legal/versioning-back-support-policy#mule-management-console[End of Life] is July 15, 2019. For more information see the xref:release-notes::mule-runtime/mmc-migrator-tool.adoc[MMC Migrator Tool] or contact your Customer Success Manager to determine how you can migrate to Anypoint Runtime Manager.
+Mule Management Console (MMC) was deprecated in December 2015. Its https://www.mulesoft.com/legal/versioning-back-support-policy#mule-management-console[End of Life] is July 15, 2019. For more information see the xref:release-notes::mule-runtime/mmc-migrator-tool.adoc[MMC Migrator Tool] or contact your Customer Success Manager to determine how you can migrate to xref:runtime-manager::index.adoc[Anypoint Runtime Manager].
 
 This document introduces the two ways to manage users in MMC – via the console itself or via LDAP – and defines the concepts of users, groups, server group permissions, and global permissions, as these terms are used in MMC.  This document also describes how to set up user groups and assign permissions in the MMC console, which you need to do regardless of whether you manage users via the console or via LDAP.
 

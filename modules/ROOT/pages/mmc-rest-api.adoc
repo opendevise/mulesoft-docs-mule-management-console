@@ -5,7 +5,7 @@ endif::[]
 :keywords: mmc, rest, api
 
 [WARNING]
-Mule Management Console (MMC) was deprecated in December 2015. Its https://www.mulesoft.com/legal/versioning-back-support-policy#mule-management-console[End of Life] is July 15, 2019. For more information see the xref:release-notes::mule-runtime/mmc-migrator-tool.adoc[MMC Migrator Tool] or contact your Customer Success Manager to determine how you can migrate to Anypoint Runtime Manager.
+Mule Management Console (MMC) was deprecated in December 2015. Its https://www.mulesoft.com/legal/versioning-back-support-policy#mule-management-console[End of Life] is July 15, 2019. For more information see the xref:release-notes::mule-runtime/mmc-migrator-tool.adoc[MMC Migrator Tool] or contact your Customer Success Manager to determine how you can migrate to xref:runtime-manager::index.adoc[Anypoint Runtime Manager].
 
 The management console provides REST APIs that you can use to programmatically access much of the console's functionality. Using these REST APIs, you can:
 
